@@ -20,10 +20,6 @@
                 To WooCommerce.""",
     'depends': ['sale_stock', 'connector', 'connector_ecommerce'],
     'installable': True,
-    'auto_install': False,
-    'data': [
-        "security/ir.model.access.csv",
-        "views/backend_view.xml",
         "views/product_view.xml",
         "views/res_partner_views.xml",
         "views/sale_views.xml",
